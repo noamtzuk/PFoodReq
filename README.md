@@ -1,13 +1,3 @@
-# PFoodReq
-
-Code & data accompanying the WSDM 2021 paper "Personalized Food Recommendation as Constrained Question Answering over a Large-scale Food Knowledge Graph".
-
-
-## Architecture
-
-![PFoodReq architecture.](images/arch.png)
-
-
 
 
 ## Prerequisites
@@ -125,26 +115,4 @@ You can also download our generated benchmark from [here](https://1drv.ms/u/s!Aj
     ```
     python run_online.py -config config/pfoodreq_similar_recipes.yml
     ```
-
-
-## Reference
-
-If you found this code useful, please consider citing the following paper:
-
-Yu Chen, Ananya Subburathinam, Ching-Hua Chen and Mohammed J. Zaki. **"Personalized Food Recommendation as Constrained Question Answering over a Large-scale Food Knowledge Graph."** In *Proceedings of the 14th International Conference on Web Search and Data Mining (WSDM 2021), Mar. 8-12, 2021.*
-
-
-    @inproceedings{chen2021personalized,
-    author    = {Chen, Yu and Subburathinam, Ananya and Chen, Ching-Hua and Zaki, Mohammed J.},
-    title     = {Personalized Food Recommendation as Constrained Question Answering over a Large-scale Food Knowledge Graph},
-    booktitle = {Proceedings of the 14th International Conference on Web Search and Data Mining},
-    month = {Mar. 8-12,},
-    year      = {2021}}
-
-
-
-
-
-
-Note that we use the BAMnet model as our KBQA system in this application. For more details about the BAMnet model, please refer to the [original paper](https://arxiv.org/abs/1903.02188). For more details about the FoodKG, please refer to the [original paper](https://link.springer.com/chapter/10.1007/978-3-030-30796-7_10).
 
